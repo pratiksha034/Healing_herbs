@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <h1 id="typing">healing herbs</h1>
+                <li><a href="#home">Home</a></li>
+                <li><a href="index.html">Search</a></li>
+                <li><a href="#about">categories</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="container">
+        <form>
+            <i class="fas fa-search"></i>
+            <input type="text" name="" id="search-item" placeholder="search palts" onkeyup="search()">
+        </form>
+        <div class="product-list" id="product-list">
+            
+            <div class="product">
+                <img src="img/Hirda.jpg" alt="">
+                <div class="p-details">
+                    <a href="plants/hirda.html">Hirda</a>
+                    
+
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/bael.jpg" alt="">
+                <div class="p-details">
+                    <a href="plants/bael.html">Bael</a>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/brahmi.jpg" alt="">
+                <div class="p-details">
+                    <a href="plants/brahmi.html">Brahmi</a>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/guduchi.jpg" alt="">
+                <div class="p-details">
+                    <a href="plants/guduchi.html">Guduchi</a>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/shatavari.jpg" alt="">
+                <div class="p-details">
+                    <a href="plants/shatavari.html">Shatavari</a>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/neem.jpg" alt="">
+                <div class="p-details">
+                    <a href="plants/neem.html">Neem</a>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/amla.jpg" alt="">
+                <div class="p-details">
+                    <a href="plants/amla.html">Amla</a>
+                    
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/arjuna.webp" alt="">
+                <div class="p-details">
+                    <a href="plants/arjuna.html">Arjuna</a>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/ashwagandha.jpg" alt="">
+                <div class="p-details">
+                    <a href="plants/ashwagandha.html">Ashwagandha</a>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/tulsi.webp" alt="">
+                <div class="p-details">
+                    <a href="plants/tulsi.html">Tulsi abc</a>
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+    <footer>
+        <p>&copy; @Healing Herbs.</p>
+    </footer>
+    <script src="script.js"></script>
+
+
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <df-messenger
+    intent="WELCOME"
+    chat-title="healing_herbs"
+    agent-id="14dfd980-c325-43cc-9de0-0ddd88b617ba"
+    language-code="en"
+    ></df-messenger>
+
+    
+</body>
+</html>
